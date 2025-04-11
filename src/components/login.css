@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(143, 235, 238);
+}
+.log-box{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh; 
+}
+.main{
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+    background-color: aqua;
+    text-align: center;
+}
+.main h2{
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 35px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 7px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+button#login-btn{
+    height: 45px;
+    width: 50%;
+    border-radius: 12px;
+    font-size: 35px;
+    background-color: rgb(89, 89, 245);
+    margin-top: 60px;
+    cursor: pointer;
+}
+button#login-btn:hover{
+    background-color: blue;
+}
